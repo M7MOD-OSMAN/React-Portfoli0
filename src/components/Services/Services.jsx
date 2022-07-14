@@ -4,6 +4,7 @@ import Glasses from '../../img/glasses.png'
 import Humble from '../../img/humble.png'
 import Card from '../Card/Card'
 import { motion } from 'framer-motion'
+import Resume from './resume.pdf'
 
 const Services = () => {
   const transition = {
@@ -22,7 +23,9 @@ const Services = () => {
           ipsum is simply dummy text of printing lorem
         </span>
 
-        <button className='button s-button'>Download CV</button>
+        <a href={Resume} download>
+          <button className='button s-button'>Download CV</button>
+        </a>
         <div className='blur s-blur1' style={{ background: '#abf1ff94' }}></div>
       </div>
       {/* right side */}

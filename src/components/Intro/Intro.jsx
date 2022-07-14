@@ -27,7 +27,7 @@ const Intro = () => {
           </span>
         </div>
         <Link to='Contact' smooth={true} spy={true}>
-          <button className='button i-button'>Hire me</button>
+          <button className='button i-button'>Get in touch</button>
         </Link>
         <div className='i-icons'>
           <a target='_blank' href='https://github.com/M7MOD-OSMAN'>
